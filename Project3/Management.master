@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Management.master.cs" Inherits="Management" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .color{
+            background-color:#002D72;   
+         
+           
+                    }
+        .auto-style2 {
+            font-size: large;
+        }
+      
+
+        .auto-style3 {
+            color: #FFFFFF;
+        }
+      
+        footer{
+            background-color:#002D72;
+            width:100%; height:42px;
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table>
+            <tr>
+                <td><img src="icon1.jpeg"width="57" height="57"/></td>
+                <td class="auto-style2">Inventory Automation System</td>
+               
+            </tr>
+        </table>
+    
+            <header class="text-gray-600 body-font">
+        <div class="color">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+   <div>  
+       
+      </div>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <asp:HyperLink CssClass="mr-5 hover:text-gray-900" runat="server" NavigateUrl="~/newsupplier.aspx" ForeColor="White">NewSupplier</asp:HyperLink>&nbsp;&nbsp; &nbsp; <asp:HyperLink CssClass="mr-5 hover:text-gray-900" runat="server" NavigateUrl="~/allsupplier.aspx" ForeColor="White">AllSupplier</asp:HyperLink>
+        &nbsp;&nbsp;&nbsp;
+        &nbsp;<asp:HyperLink runat="server" NavigateUrl="~/suppliersearch.aspx" ForeColor="White" >SearchSupplier</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:HyperLink CssClass="mr-5 hover:text-gray-900" runat="server" NavigateUrl="~/stock.aspx" ForeColor="White">Stock</asp:HyperLink>&nbsp;&nbsp;&nbsp; &nbsp;<asp:HyperLink CssClass="mr-5 hover:text-gray-900" runat="server" NavigateUrl="~/newcustomer.aspx" ForeColor="White">NewCustomer</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink CssClass="mr-5 hover:text-gray-900" runat="server" NavigateUrl="~/allcustomer.aspx" ForeColor="White">AllCustomer</asp:HyperLink>&nbsp;&nbsp; <asp:HyperLink runat="server" NavigateUrl="~/customersearch.aspx" ForeColor="White">SearchCustomer</asp:HyperLink>&nbsp;&nbsp; <asp:HyperLink CssClass="mr-5 hover:text-gray-900" runat="server" ForeColor="White" NavigateUrl="~/Purchase.aspx">Purchase</asp:HyperLink>
+        &nbsp;&nbsp; <asp:HyperLink CssClass="mr-5 hover:text-gray-900" runat="server" ForeColor="White" NavigateUrl="~/Sell.aspx">Sell</asp:HyperLink>
+        &nbsp;<asp:HyperLink CssClass="mr-5 hover:text-gray-900" runat="server" ForeColor="White" NavigateUrl="~/View.aspx">View</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+        </nav>
+      <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+   
+  </div>
+            </div>
+</header>
+        &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+      
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+      
+    </form>
+
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <footer class="text-right">
+     <a href="https://www.facebook.com/" class="auto-style3">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://in.linkedin.com/" class="auto-style3">Linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://github.com/" class="auto-style3">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</footer>
+</body>
+</html>
